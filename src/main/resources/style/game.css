@@ -1,0 +1,343 @@
+.gamepane {
+    -fx-background-color: black;
+}
+
+.intro {
+    -fx-background-color: black;
+}
+
+.menu-background {
+    -fx-background-image: url("../images/1.jpg");
+    -fx-background-size: cover;
+}
+
+.challenge-background {
+    -fx-background-image: url("../images/2.jpg");
+    -fx-background-size: cover;
+}
+
+.challenge-background-light {
+    -fx-background-image: url("../images/7.jpg");
+    -fx-background-size: cover;
+}
+
+.menu-background-light {
+    -fx-background-image: url("../images/8.jpg");
+    -fx-background-size: cover;
+}
+.lobby-background-light {
+    -fx-background-image: url("../images/9.jpg");
+    -fx-background-size: cover;
+}
+.lobby-background {
+    -fx-background-image: url("../images/3.jpg");
+    -fx-background-size: cover;
+}
+
+
+
+
+.menu {
+    -fx-padding: 10;
+}
+
+.menuItem {
+    -fx-text-fill: #eead6b;
+    -fx-font-family: 'Orbitron';
+    -fx-font-size: 32px;
+    -fx-font-weight: 700;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.menuItem:hover {
+    -fx-text-fill: orange;
+}
+
+.smallMenuItem {
+    -fx-fill: grey;
+    -fx-font-family: 'Orbitron';
+    -fx-font-size: 20px;
+    -fx-font-weight: 700;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+
+.menuItem.selected {
+    -fx-fill: yellow;
+}
+
+.bigtitle {
+    -fx-fill: yellow;
+    -fx-font-family: 'Orbitron';
+    -fx-font-size: 64px;
+    -fx-font-weight: 900;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.title {
+    -fx-fill: white;
+    -fx-font-family: 'Orbitron';
+    -fx-font-size: 32px;
+    -fx-font-weight: 900;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.heading {
+    -fx-fill: white;
+    -fx-font-family: 'Orbitron';
+    -fx-font-size: 20px;
+    -fx-font-weight: 700;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.score {
+    -fx-fill: yellow;
+    -fx-font-family: 'Orbitron';
+    -fx-font-size: 36px;
+    -fx-font-weight: 700;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-text-alignment: center;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.level {
+    -fx-fill: #ff6600;
+    -fx-font-family: 'Orbitron';
+    -fx-font-size: 24px;
+    -fx-font-weight: 700;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-text-alignment: center;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.hiscore {
+    -fx-fill: orange;
+    -fx-font-family: 'Orbitron';
+    -fx-font-size: 24px;
+    -fx-font-weight: 700;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-text-alignment: center;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.lives {
+    -fx-fill: yellow;
+    -fx-font-family: 'Orbitron';
+    -fx-font-size: 36px;
+    -fx-font-weight: 700;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-text-alignment: center;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.scorelist {
+    -fx-font-size: 20px;
+    -fx-font-family: 'Orbitron';
+}
+
+.scoreitem {
+
+}
+
+.scorer {
+
+}
+
+.myscore {
+    -fx-font-weight: 700;
+}
+
+.deadscore {
+    -fx-strikethrough: true;
+}
+
+.points {
+}
+
+.channelList {
+
+}
+
+.channelItem {
+    -fx-fill: white;
+    -fx-font-family: 'Orbitron';
+    -fx-font-size: 16px;
+    -fx-font-weight: 700;
+    -fx-border-color: black;
+    -fx-stroke: black;
+}
+
+.channelItem.selected {
+    -fx-fill: yellow;
+}
+
+.leaderboard {
+    -fx-font-size: 16px;
+}
+
+.gameBox {
+    -fx-padding: 10;
+    -fx-background-color: rgba(0, 0, 0, 0.5);
+    -fx-border-color: white;
+    -fx-border-width: 1;
+}
+
+.scroller {
+    -fx-background-color: transparent;
+}
+
+.scroller .viewport {
+    -fx-background-color: transparent;
+}
+
+.messages {
+    -fx-background-color: transparent;
+    -fx-font-size: 12px;
+    -fx-font-family: 'Orbitron';
+}
+
+.messages Text {
+    -fx-fill: white;
+}
+
+.playerBox {
+    -fx-font-size: 14px;
+    -fx-font-family: 'Orbitron';
+}
+
+.playerBox Text {
+    -fx-fill: white;
+}
+
+.myname {
+    -fx-font-weight: 700;
+}
+
+.instructions {
+    -fx-font-size: 10px;
+    -fx-font-family: 'Orbitron';
+    -fx-fill: white;
+}
+
+.lobbyBackground {
+    -fx-background-image: url("../images/4.jpg");
+    -fx-background-size: cover;
+}
+
+.TextField {
+    -fx-border-color: white;
+    -fx-border-width: 1px;
+    -fx-background-color: white;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: grey;
+}
+
+.cross {
+    -fx-font-size: 20px;
+    -fx-font-weight: 700;
+    -fx-font-family: 'Orbitron';
+    -fx-fill: white;
+    -fx-stroke: black;
+    -fx-border-color: black;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+    -fx-strikethrough: true;
+}
+
+.slider {
+    -fx-background-color: white;
+}
+
+.slider .track {
+    -fx-background-color: #b9b9b9;
+}
+
+.slider .track-background {
+    -fx-background-color: #e6e6e6;
+}
+
+.slider .thumb {
+    -fx-background-color: #0072c6;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+
+.slider .thumb:hover {
+    -fx-background-color: #005ea5;
+}
+
+.slider .thumb .thumb-label {
+    -fx-background-color: #0072c6;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 5px;
+    -fx-border-radius: 5px;
+}
+
+.lobbyButton {
+    -fx-background-color: rgb(105, 105, 180);
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 5px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 5, 0, 0, 1);
+    -fx-min-height: 32px; /* same height as the text-field */
+}
+
+.lobbyButton:hover {
+    -fx-background-color: #005aa6;
+}
+
+.startButton {
+    -fx-background-color: rgba(24, 118, 196, 0.5);
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 25px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 10, 0, 0, 2);
+}
+
+.startButton:hover {
+    -fx-background-color: rgba(0, 90, 166, 0.5);
+}
+
+.text-field {
+    -fx-background-color: rgba(255, 255, 255, 0.5); /* 50% transparent white */
+    -fx-background-radius: 5px;
+    -fx-border-color: transparent;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-padding: 8px;
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;
+    -fx-min-height: 32px; /* same height as the lobbyButton */
+}
+
+.text-field:hover {
+    -fx-background-color: rgba(255, 255, 255, 1); /* fully opaque white */
+    -fx-border-color: #0072c6; /* blue */
+}
+
+.text-field:focused {
+    -fx-background-color: rgba(255, 255, 255, 1); /* fully opaque white */
+    -fx-border-color: #0072c6; /* blue */
+}
+
